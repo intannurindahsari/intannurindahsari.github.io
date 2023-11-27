@@ -1,0 +1,93 @@
+<!--FROM HTML-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Belajar Membuat From </title>
+    </head>
+    <body>
+        <!--Tg From-->
+        <from action="prosesdata.php" method="post">
+            ....isi from....
+        </from>
+        <br></br>
+
+        <!--Mengenal tag text area-->
+        <textarea rows="5" cols="20">
+             Text yang diisi dapat mencapai banyak baris
+        </textarea>
+        <br></br>
+        
+        <!--Mengenal text select-->
+        <select>
+            <option>Pilihan 1</option>
+            <option>Pilihan 2</option>
+            <option value="pilihan ketiga">Pilihan 3</option>
+        </select>
+        <br></br>
+
+        <!--Tag select memiliki atribut selected-->
+        <select>
+            <option>Pilihan 1</option>
+            <option>Pilihan 2</option>
+            <option value="pilihan ketiga" selected>Pilihan 3</option>
+        </select>
+        <br></br>
+        
+        <!--Mengenal atribut name-->
+        <input type="text" name="username">
+        <br></br>
+        <input type="text" name="email">
+
+        <hr aligin="left" size="3" color="black">
+
+    </body>
+</html>
+
+
+<!--Latihan praktikum-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Belajar Membuat Form </title>
+</head>
+<body>
+    <form action=" formulir.html" method="get">
+        Nama: <input type="text" name="nama" value="Nama Kamu" />
+        Password: <input type="password" name="password" />
+
+        Jenis Kelamin :
+        <input type="radio" name="jenis kelamin" value="laki-laki" checked /> 
+        Laki - Laki
+        <input type="radio" name="jenis kelamin" value="perempuan" />
+<br></br>
+Perempuan
+<br></br>
+
+Hobi:<input type="checkbox" name="hobi_baca" /> Membaca Buku
+<input type="checkbox" name="hobi_nulis" checked /> Menulis
+
+
+<input type="checkbox" name="hobi_mancing" /> Memancing
+<br></br>
+Asal Kota:
+ <select name="asal_kota" >
+    <option value="Kota Jakarta"> Jakarta</option>
+    <option>Bandung</option>
+    <option value="Kota Semarang" selected>Semarang</option>
+</select>
+<br></br>
+
+Komentar Anda:
+<textarea name="komentar" rows="5" cols="20">
+Silahkan katakan isi hati anda
+</textarea>
+<br />
+<input type="submit" value="Mulai Proses!" >
+</form>
+
+<hr aligin="left" size="3" color="black">
+
+</body>
+</html>
+
